@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>calculadore</title>
+</head>
+<body>
+<div class="tudo">
+    <div class="painel">
+<h1>calculadora</h1>    
+
+<p>digite um número</p>
+<input type="number" id="n1" placeholder="Numero 1">
+
+<p>digite outro Numero</p>
+<input type="number" id="n2" placeholder="Numero 2">
+
+<br><br>
+
+<button class="bottao" onclick="somar()">Somar</button>
+<button class="botao" onclick="subtrair()">Subtrair</button>
+<button class="botao" onclick="multiplicar()">Multiplicar</button>
+<button class="botao" onclick="dividir()">Dividir</button>
+<button class="botaolimpar" onclick="limpar()">Limpar</button>
+</div>
+
+<div id="resultado">
+
+</div>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
